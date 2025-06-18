@@ -132,7 +132,3 @@ videoConverter.hlsConvert(
 ## License
 
 MIT
-
----
-
-Would you like to add or customize any section further?
