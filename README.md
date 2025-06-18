@@ -2,11 +2,11 @@ Here’s a detailed README.md for your project, covering its purpose, use case, 
 
 ---
 
-# hls-maker
+# video-hls-converter
 
 ## Overview
 
-**hls-maker** is a Node.js/TypeScript library for converting video files into HTTP Live Streaming (HLS) format with multiple quality levels. It leverages `fluent-ffmpeg` to automate the process of generating HLS segments and playlists, making it easy to prepare videos for adaptive streaming.
+**video-hls-converter** is a Node.js/TypeScript library for converting video files into HTTP Live Streaming (HLS) format with multiple quality levels. It leverages `fluent-ffmpeg` to automate the process of generating HLS segments and playlists, making it easy to prepare videos for adaptive streaming.
 
 ---
 
@@ -39,9 +39,9 @@ Here’s a detailed README.md for your project, covering its purpose, use case, 
 ## Installation
 
 ```bash
-pnpm install hls-maker
+pnpm install video-hls-converter
 # or
-npm install hls-maker
+npm install video-hls-converter
 ```
 
 > **Note:** You must have [FFmpeg](https://ffmpeg.org/download.html) installed and available in your system’s PATH.
@@ -53,7 +53,7 @@ npm install hls-maker
 ### Basic Example
 
 ```typescript
-import { VideoConverter } from 'hls-maker';
+import { VideoConverter } from 'video-hls-converter';
 
 const videoConverter = new VideoConverter('video', 'output');
 videoConverter.hlsConvert(

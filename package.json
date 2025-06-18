@@ -1,6 +1,6 @@
 {
-  "name": "hls-maker",
-  "version": "1.0.0",
+  "name": "video-hls-converter",
+  "version": "0.0.1",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "files": [
@@ -21,6 +21,20 @@
     "test": "node --loader ts-node/esm test/main.ts",
     "start": "ts-node test/main.ts"
     
+  },
+  "keywords": [
+    "video",
+    "hls",
+    "converter",
+    "ffmpeg",
+    "streaming",
+    "typescript"
+  ],
+  "author": "Dip",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytebrain3/video-hls-converter.git"
   },
   "devDependencies": {
     "@types/fluent-ffmpeg": "^2.1.27",
